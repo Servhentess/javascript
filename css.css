@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+#titrePage {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#sousTitre {
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#menuTop {
+    text-align: center;
+}
+
+#image {
+    float: right;
+}
+
+#ficheTech {
+    float: left;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
+    margin-top: 25%;
+    margin-left: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+#photos {
+}
