@@ -4,6 +4,7 @@
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
         <link rel="stylesheet" href="css.css"/>
+        <script src="js.js"></script>
         <title>Star wars story</title>
     </head>
 
@@ -54,27 +55,16 @@
 
         <div class="clear"></div>
 
-        <p id="photos">
-            <table>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                </tr>
-            </table>
+        <p id="form">
+            <form onsubmit="return changeColor()">
+                <div>
+                    <label for="couleur">Couleur : </label>
+                    <input type="text" name="insertCouleur" id="couleurEnvoye">
+                </div>
+                <div>
+                    <button type="submit" name="envoyer">Envoyer</button>
+                </div>
+            </form>            
         </p>
     </div>
 
