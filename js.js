@@ -3,6 +3,10 @@
 //tableau des couleurs 
 var tabColor = ['Blue', 'Green', 'Yellow', 'Red', 'Gray'];
 
+//tableau de link
+var tabLink = ['http://www.google.fr', 'http://www.netscape.com', 'http://www.computer-in-action.net',
+ 'http://www.yahoo.com', 'http://www.toto.fr'];
+
 //fonction d'application de la couleur au BG
 var changeColor = function() {
     //recuperation de la valeur inscrite
@@ -18,6 +22,9 @@ var changeColor = function() {
     //remise a zero du champ text
     var effacerChamp = document.getElementById('couleurEnvoye');
     effacerChamp.value = "";
+
+    //changement de lien accueil vers google
+    document.getElementById('lienAccueil').href=tabLink[couleurRecup];
 
     return false;
 }
